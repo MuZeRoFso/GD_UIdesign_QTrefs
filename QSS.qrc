@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/qss">
+        <file>source/qss/MainWidget.css</file>
+        <file>source/qss/MainTitleBar.css</file>
+        <file>source/qss/FuncWidget.css</file>
+        <file>source/qss/SysInfoWidget.css</file>
+        <file>source/qss/TraceCheckWidget.css</file>
+        <file>source/qss/SecretScanWidget.css</file>
+        <file>source/qss/GenDB_Widget.css</file>
+    </qresource>
+</RCC>

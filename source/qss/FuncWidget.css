@@ -1,0 +1,26 @@
+﻿#NaviBar
+{
+    border-left: 2px solid gray;
+    border-bottom: 2px solid gray;
+    background-color: #f6ffef;
+}
+#NaviBar::item
+{
+    background-color: transparent;
+    height: 50px;
+    font-size: 20px;
+}
+#NaviBar::item:selected
+{
+    border: 1px solid #90B44B;
+    border-left: 8px solid #90B44B;
+    border-right: transparent;
+    color:#90B44B;
+}
+#NaviBar::item:hover
+{
+    border: 1px solid #E16B8C;
+    border-left: 8px solid #E16B8C;
+    border-right: transparent;
+    color:#E16B8C;
+}

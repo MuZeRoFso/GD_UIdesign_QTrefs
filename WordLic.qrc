@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/lic">
+        <file>source/lic/Aspose.Total.Product.Family.lic</file>
+    </qresource>
+</RCC>

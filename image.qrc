@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/Image">
+        <file>source/Image/Maximum.png</file>
+        <file>source/Image/icon.png</file>
+        <file>source/Image/hide.png</file>
+        <file>source/Image/Minimum.png</file>
+        <file>source/Image/exit.png</file>
+    </qresource>
+</RCC>

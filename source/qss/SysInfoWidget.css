@@ -1,0 +1,74 @@
+﻿QLabel
+{
+    font:18px bold "宋体","黑体",Arial, Helvetica, sans-serif;
+}
+#SysInfoWidget
+{
+    background-color: #f6ffef;
+    border-right: 2px solid gray;
+    border-bottom: 2px solid gray;
+    border-left: 2px solid gray;
+}
+#SelfDesc
+{
+    font:30px bold "宋体","黑体",Arial, Helvetica, sans-serif;
+    border: 1px solid black;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    max-width: 310px;
+    min-height: 50px;
+}
+#Refresh
+{
+    font: 20px "黑体","宋体",Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    background-color: #2EA9DF;
+    color: #FFFFFF;
+}
+#Refresh:hover
+{
+    border-radius: 10px;
+    background-color: #E87A90;
+    border: 3px solid black;
+}
+#SysTab::pane
+{
+    border: 2px solid gray;
+    background-color: white;
+}
+QTabBar::tab
+{
+    border-top-right-radius: 10px;
+    background-color: #2EA9DF;
+    color:white;
+    font: 18px "黑体","宋体",Arial, Helvetica, sans-serif;
+    height: 35px;
+    width: 140px;
+    margin-left: 0;
+    margin-right: 0;
+    border: 2px solid gray;
+    border-bottom: transparent;
+}
+QTabBar::tab:selected
+{
+    background-color: #E87A90;
+    border-top-left-radius: 10px;
+}
+QTabBar::tab:hover
+{
+    background-color: #E87A90;
+    border: 4px groove gray;
+}
+QHeaderView::section
+{
+    font:18px "黑体","宋体",Arial, Helvetica, sans-serif;
+    color:black;
+    border:none;
+    min-height: 30px;
+}
+
+QTableWidget::item
+{
+    font: 30px "黑体","宋体",Arial, Helvetica, sans-serif;
+}

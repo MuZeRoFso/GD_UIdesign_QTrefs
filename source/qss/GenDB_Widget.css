@@ -1,0 +1,62 @@
+﻿#GenDB_Widget
+{
+    background-color: #f6ffef;
+    border-right: 2px solid gray;
+    border-bottom: 2px solid gray;
+    border-left: 2px solid gray;
+}
+#SelfDesc
+{
+    font:30px bold "宋体","黑体",Arial, Helvetica, sans-serif;
+    border: 1px solid black;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    max-width: 340px;
+    min-height: 50px;
+}
+QLabel
+{
+    font: 18px "黑体","宋体",Arial, Helvetica, sans-serif;
+    height: 25px;
+}
+QLineEdit
+{
+    font :18px "黑体","宋体",Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    border: 1px solid black;
+    height: 25px;
+}
+QPushButton
+{
+    font:18px "黑体","宋体",Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    border:1px solid black;
+    background-color: #2EA9DF;
+    color: #FFFFFF;
+    height: 25px;
+    min-width: 80px;
+}
+QPushButton:disabled
+{
+    background-color: rgb(172, 172, 172);
+    color: #FFFFFF;
+}
+QPushButton:hover
+{
+    border-radius: 10px;
+    background-color: #E87A90;
+    border: 2px solid black;
+}
+#KeyWordTable
+{
+    border: 4px solid gray;
+    background-color: white;
+}
+QHeaderView::section
+{
+    font:18px "黑体","宋体",Arial, Helvetica, sans-serif;
+    color:black;
+    border:none;
+    min-height: 25px;
+}
